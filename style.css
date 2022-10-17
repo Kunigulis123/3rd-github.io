@@ -76,7 +76,7 @@ nav.nav_style_1{
       font-size: 26px;
 }
 ul.hr1 li {
-      display: inline; 
+      display: vertical; 
       border: 1px solid #000; 
       padding: 3px;
 }
@@ -88,7 +88,7 @@ tbody.tbody_style_1 tr,td,th {
 table.table_style_1 {
       border-collapse: collapse;
       border: 2px solid black;
-      order: 6;
+      order: 4;
 }
 form.form_style_1 p {
       margin-right: auto; 
@@ -98,7 +98,7 @@ form.form_style_1 p {
 
 }
 .form_style_1{
-      order: 4;
+      order: 6;
       font-size: 30px;
 }
 div.content_style h1{
