@@ -1,179 +1,184 @@
 body {
-      margin:0;
+    margin:0;
 }
 header.block_style_1 {
-      display: flex;
-      justify-content: space-evenly;
-      width:100%;
-      background-color:#ccc;
-      padding: 10px;
-      height:120px;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    background-color:#ccc;
+    padding: 10px;
+    height:120px;
 }
 div.block_style_2 {
-      width: 90%;
-      height: 90px;
-      background-color:#ddd; 
-      padding-bottom:10px;
-      margin-left: 10px;
-      font-size: 26px;
+    width: 90%;
+    height: 90px;
+    background-color:#ddd; 
+    padding-bottom:10px;
+    margin-left: 10px;
+    font-size: 26px;
 
 }
 h1.sitename_style{
-      margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 img.img_style_1 {
-      float:left; 
-      margin:0px; 
-      width:200px; 
-      height:100px;
+    float:left; 
+    margin:0px; 
+    width:200px; 
+    height:100px;
 }
 div.content_style {
-      display: flex;
-      flex-direction: column;
-      width:100%; 
-      background-color:#ccc; 
-      margin: 0 auto; 
-      margin-top:20px; 
-      padding:10px;
-      font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width:100%; 
+    background-color:#ccc; 
+    margin: 0 auto; 
+    margin-top:20px; 
+    padding:10px;
+    font-size: 30px;
 }
 ol.spisok{
-      order: 2;
+    order: 2;
 }
 #contentlist{
-      order: 1;
+    order: 1;
 }
 #contentform{
-      order: 3;
+    order: 3;
 }
 #contenttable{
-      order: 5;
+    order: 5;
 }
 
 footer.block_style_4 {
-      width:94.8%; 
-      background-color:#ccc; 
-      margin-top:50px; 
-      padding:50px;
-      font-size: 26px;
+    width:94.8%; 
+    background-color:#ccc; 
+    margin-top:50px; 
+    padding:50px;
+    font-size: 26px;
 }
 span.span_style_1 {
-      background-color:white;
+    background-color:white;
 }
 tr.row1 {
-      background-color:orange;
+    background-color:orange;
 }
 tr.row2 {
-      background-color:yellow;
+    background-color:yellow;
 }
 nav.nav_style_1{
-      width:100%; 
-      background-color:#ccc; 
-      margin: 0 auto; 
-      margin-top:20px; 
-      padding:10px; 
-      text-align: center;
-      font-size: 26px;
+    width:100%; 
+    background-color:#ccc; 
+    margin: 0 auto; 
+    margin-top:20px; 
+    padding:10px; 
+    text-align: center;
+    font-size: 26px;
 }
 ul.hr1 li {
-      display: vertical; 
-      border: 1px solid #000; 
-      padding: 3px;
+    display: vertical; 
+    border: 1px solid #000; 
+    padding: 3px;
 }
 tbody.tbody_style_1 tr,td,th {
-      border: 2px solid black; 
-      border-collapse: collapse;
-      font-size: 22px;
+    border: 2px solid black; 
+    border-collapse: collapse;
+    font-size: 22px;
 }
 table.table_style_1 {
-      border-collapse: collapse;
-      border: 2px solid black;
-      order: 4;
+    border-collapse: collapse;
+    border: 2px solid black;
+    order: 6;
 }
 form.form_style_1 p {
-      margin-right: auto; 
-      margin-left: auto; 
-      width: 20em;
-      font-size: 30px;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 20em;
+    font-size: 30px;
 
 }
 .form_style_1{
-      order: 6;
-      font-size: 30px;
+    order: 4;
+    font-size: 30px;
 }
 div.content_style h1{
-      margin-right: auto; 
-      margin-left: auto; 
-      width: 5em;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 5em;
 
 }
 div.content_style ol, table{
-      margin-right: auto; 
-      margin-left: auto; 
-      width: 20em;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 20em;
 }
 #superpowers_label{
-      font-size: 30px;
+    font-size: 30px;
 }
 #sp_option{
-      font-size: 22px;
+    font-size: 22px;
 }
 @media screen and (min-width: 1081px){
-      div.content_style {
-            max-width:960px; 
-            background-color:#ccc; 
-            margin: 0 auto; 
-            margin-top:20px; 
-            padding:10px;
-            font-size: 16px;
-      }
-      nav.nav_style_1{
-            max-width:960px; 
-            background-color:#ccc; 
-            margin: 0 auto; 
-            margin-top:20px; 
-            padding:10px; 
-            text-align: center;
-            font-size: 16px;
-      }
-      form.form_style_1 p {
-            margin-right: auto; 
-            margin-left: auto; 
-            width: 10em;
-            font-size: 16px;
-      }
-      tbody.tbody_style_1 tr,td,th {
-            border: 2px solid black; 
-            border-collapse: collapse;
-            font-size: 16px;
-      }
-      ol.spisok{
-      order: 2;
-      }
-      #contentlist{
-            order: 1;
-      }
-      #contenttable{
-      order: 3;
-      }
-      table.table_style_1 {
-      border-collapse: collapse;
-      border: 2px solid black;
-      order: 4;
-      }
-      #contentform{
-            order: 5;
-      }
-      .form_style_1{
-            order: 6;
-      }
-      .block_style_4{
-            font-size: 12px;
-      }
-      #superpowers_label{
-            font-size: 14px;
-      }
-      #sp_option{
-            font-size: 12px;
-      }
+    div.content_style {
+          max-width:960px; 
+          background-color:#ccc; 
+          margin: 0 auto; 
+          margin-top:20px; 
+          padding:10px;
+          font-size: 16px;
+    }
+    nav.nav_style_1{
+          max-width:960px; 
+          background-color:#ccc; 
+          margin: 0 auto; 
+          margin-top:20px; 
+          padding:10px; 
+          text-align: center;
+          font-size: 16px;
+    }
+    form.form_style_1 p {
+          margin-right: auto; 
+          margin-left: auto; 
+          width: 10em;
+          font-size: 16px;
+    }
+    tbody.tbody_style_1 tr,td,th {
+          border: 2px solid black; 
+          border-collapse: collapse;
+          font-size: 16px;
+    }
+    ol.spisok{
+    order: 2;
+    }
+    #contentlist{
+          order: 1;
+    }
+    #contenttable{
+    order: 3;
+    }
+    table.table_style_1 {
+    border-collapse: collapse;
+    border: 2px solid black;
+    order: 4;
+    }
+    #contentform{
+          order: 5;
+    }
+    .form_style_1{
+          order: 6;
+    }
+    .block_style_4{
+          font-size: 12px;
+    }
+    #superpowers_label{
+          font-size: 14px;
+    }
+    #sp_option{
+          font-size: 12px;
+    }
+    ul.hr1 li {
+        display: inline; 
+        border: 1px solid #000; 
+        padding: 3px;
+    }
 }
